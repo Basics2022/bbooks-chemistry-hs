@@ -3,6 +3,8 @@
 
 Questo libro fa parte del materiale pensato per [le scuole superiori](https://basics2022.github.io/bbooks-hs)
 
+<span style="color:red">Valutare se fare uno o più bbook di "scienze applicate", per astronomia, scienza della terra, biologia</span>
+
 
 **Programma sintetico.**
 <!--

@@ -1,0 +1,654 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Argomenti &#8212; My sample book</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=5b4479735964841361fd" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/style.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=5b4479735964841361fd" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=5b4479735964841361fd"></script>
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'ch/units';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Chimica per le scuole superiori" href="../intro.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="My sample book - Home"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="My sample book - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Chimica per le scuole superiori
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Argomenti</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fch/units.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/ch/units.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Argomenti</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduzione-alla-scienza">Introduzione alla scienza</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduzione-all-teoria-atomica">Introduzione all teoria atomica</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#stati-della-materia">Stati della materia</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ordinamento-degli-elementi-chimici">“Ordinamento” degli elementi chimici</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modelli-atomici">Modelli atomici</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#legami-chimici">Legami chimici</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <div class="tex2jax_ignore mathjax_ignore section" id="argomenti">
+<span id="book-chemistry-hs-topics"></span><h1>Argomenti<a class="headerlink" href="#argomenti" title="Permalink to this heading">#</a></h1>
+<div class="section" id="introduzione-alla-scienza">
+<h2>Introduzione alla scienza<a class="headerlink" href="#introduzione-alla-scienza" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Metodo scientifico, grandezze fisiche, unità di misura, statistica ed errori,…
+<span style="color:red"><strong>todo</strong> aggiungere collegamente all’introduzione al metodo scientifico del bbook-physics-hs</span></p></li>
+</ul>
+</div>
+<div class="section" id="introduzione-all-teoria-atomica">
+<h2>Introduzione all teoria atomica<a class="headerlink" href="#introduzione-all-teoria-atomica" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Breve storia:</p>
+<ul>
+<li><p>17xx,Lavoisier: conservazione massa</p></li>
+<li><p>1799, Proust: proporzioni definite: nelle reazioni che producono un determinato prodotto, i reagenti si combinano in proporzioni costanti e ben definiti</p>
+<ul>
+<li><p>eccezione: Berthollet e i composti non-stechiometrici: solidi possono avere composizione non defiinita a causa dei difetti cristallini</p></li>
+</ul>
+</li>
+<li><p>1804, Dalton: proporzioni multiple</p></li>
+<li><p>1805-1815<span style="color:blue">legge dei volumi di Gay-Lussac, Avogadro e il concetto di molecola. in <strong>Stati della materia</strong></span></p></li>
+</ul>
+</li>
+</ul>
+<p><span style="color:red"><strong>todo</strong> fare riferimento all’introduzione storica nel bbook-physics-hs:thermodynamics, e al video di Bressanini “vedere l’atomo”</span></p>
+</div>
+<div class="section" id="stati-della-materia">
+<h2>Stati della materia<a class="headerlink" href="#stati-della-materia" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Gas: leggi di Boyle, Charles, Gay-Lussac, Avogadro, gas perfetti; teoria cinetica; gas reali</p></li>
+<li><p>Liquidi</p></li>
+<li><p>Solidi</p></li>
+</ul>
+</div>
+<div class="section" id="ordinamento-degli-elementi-chimici">
+<h2>“Ordinamento” degli elementi chimici<a class="headerlink" href="#ordinamento-degli-elementi-chimici" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>1869-71,
+<strong>Tavola periodica degli elementi di Mendeleev</strong> <strong>todo</strong> <em>riferimento a F ckin genius?</em>, e caratteristiche atomi:</p>
+<ul>
+<li><p>classificazione iniziata nella prima metà del XIX secolo</p></li>
+<li><p>Proprietà:</p>
+<ul>
+<li><p>peso atomico std</p></li>
+<li><p>numero atomico</p></li>
+<li><p>prima energia di ionizzazione</p></li>
+<li><p>elettronegatività: tendenza di un atomo di attrarre verso sè <span class="math notranslate nohighlight">\(e^-\)</span> condivisi</p></li>
+<li><p>stati di ossidazione <strong>comuni</strong></p></li>
+<li><p>config elettronica</p></li>
+</ul>
+</li>
+<li><p>Raggruppamento:</p>
+<ul>
+<li><p>gruppi, colonne: elementi con stessa config elettronica esterna. Poiché le proprietà chimiche dipendono principalmente dalla config. elettronica, gli elementi nello stesso gruppo hanno caratteristiche chimiche simili</p></li>
+<li><p>periodi, righe: elementi con lo stesso livello energetico; alcuni insiemi di elementi appartenenti allo stesso periodo mostrano proprietà simili, come il blocco <span class="math notranslate nohighlight">\(f\)</span> dei lantanidi e gli attinidi; nello stesso periodo ci sono variazioni monotone di:</p>
+<ul>
+<li><p>raggio atomico: diminuisce, all’aumentare del numero di <span class="math notranslate nohighlight">\(e^-\)</span> e di <span class="math notranslate nohighlight">\(p\)</span>, poiché aumenta l’attrazione elettrica</p></li>
+<li><p>energia di ionizzazione: aumenta, al diminuire del raggio e all’aumentare dell’attrazione elettrica, poiché diventa più difficile strappare un <span class="math notranslate nohighlight">\(e^-\)</span> all’atomo: serve una maggiore energia per allontanare un <span class="math notranslate nohighlight">\(e^-\)</span></p></li>
+<li><p>elettronegatività: aumenta, all’aumentare dell’attrazione esercitata dagli <span class="math notranslate nohighlight">\(e^-\)</span> sul nucleo</p></li>
+<li><p>affinità elettronica: … <strong>todo</strong> come?</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Configurazione elettronica esterna</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="modelli-atomici">
+<h2>Modelli atomici<a class="headerlink" href="#modelli-atomici" title="Permalink to this heading">#</a></h2>
+<p><strong>Esperimenti.</strong></p>
+<ul class="simple">
+<li><p>Esperimenti e modelli, dall’atomo di Thompson all’atomo di Bohr ai primordi della meccanica quantistica; meccanica quantistica come teoria meccanica per la descrizione dell’atomo (1924: De Broglie; 1925: Heisenberg, Born, Jordan; 1926: Schrodinger;…)</p></li>
+<li><p>Rivisitazione tavola periodica, alla luce dei modelli atomici</p></li>
+</ul>
+</div>
+<div class="section" id="legami-chimici">
+<h2>Legami chimici<a class="headerlink" href="#legami-chimici" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Regola ottetto</strong> e notazione di <strong>Lewis</strong></p>
+<ul>
+<li><p>regola per spiegare in maniera approssimata la formazione di legami chimici;</p></li>
+<li><p>tendenza a completare il livello elettronico esterno (“guscio di valenza”), per raggiungere una configurazione particolarmente stabile dal punto di vista energetico, e impedire la formazione di ulteriori legami;</p></li>
+<li><p>gli elementi dei primi gruppi della tavola periodica tendono a perdere <span class="math notranslate nohighlight">\(e^-\)</span></p></li>
+<li><p>gli elementi dei gruppi VI, VII tende ad aquisire <span class="math notranslate nohighlight">\(e^-\)</span>, liberando energia, chiamata <strong>affinità elettronica</strong></p></li>
+<li><p>i gas nobili, l’He e gli elementi del gruppo VIII, hanno il guscio di valenza completo e tendono a non reagire</p></li>
+<li><p>idrogeno, litio e berillio, elementi “vicini” a He, raggiungono la configurazione completa con 2 <span class="math notranslate nohighlight">\(e^-\)</span>, detta <strong>duetto</strong></p></li>
+<li><p>metalli di transizione e a partire dal terzo periodo, gli elementi hanno guscio di valenza che può ospitare un numero maggiore di <span class="math notranslate nohighlight">\(e^-\)</span>, <em>“ottetto espanso”</em></p></li>
+<li><p><strong>spiegazione in QM</strong>: l’energia degli orbitali è determinata “quasi esclusivamente”, a parte la <em>struttura fine</em>, dal numero quantico principale. Il numero di stati con lo stesso numero quantico principale <span class="math notranslate nohighlight">\(n\)</span> è <span class="math notranslate nohighlight">\(2 \, n^2\)</span> (2 dal principio di Pauli): quindi <span class="math notranslate nohighlight">\(2, 8, 18,...\)</span>. La differenza di energia di livelli con <span class="math notranslate nohighlight">\(n\)</span> diverso è elevata,…<strong>todo</strong> <em>salto di energia per attrarre ulteriori <span class="math notranslate nohighlight">\(e^-\)</span> quando il guscio di valenza è pieno</em></p></li>
+<li><p><strong>Eccezioni</strong>: <span class="math notranslate nohighlight">\(s\)</span>, <span class="math notranslate nohighlight">\(d\)</span>,…</p></li>
+</ul>
+</li>
+<li><p>Tipi di legami intramolecolari: legame ionico, covalente puro e polare</p></li>
+<li><p>Interazioni tra molecole: legame idrogeno, …<strong>todo</strong> <em>altri legami?</em></p></li>
+<li><p>Teorie per la descrizione del legame e geometria molecolare,</p>
+<ul>
+<li><p>VSEPR</p></li>
+<li><p>teoria del legame di valenza</p></li>
+<li><p>…</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Miscele.</strong></p>
+<ul class="simple">
+<li><p>omogenee ed eterogenee; tecniche di separazione: filtro, centrifuga, decanter, cromatografo, distillazione</p></li>
+</ul>
+<p><strong>Reazioni e trasformazioni della materia.</strong></p>
+<ul class="simple">
+<li><p>Formalismo</p></li>
+<li><p>Legge di Lavoisier, proporzioni def e multiple</p></li>
+<li><p>Calcolo reazioni chimiche: reagente limitante e in eccesso,</p></li>
+<li><p>Soluzioni, concentrazioni: legge di Raoult, legge di Henry,…</p></li>
+</ul>
+<p><strong>Reazioni e termodinamica.</strong></p>
+<ul class="simple">
+<li><p>introduzione alla termodinamica <span style="color:red">Collegamento al bbook di fisica</span></p></li>
+<li><p>Gibbs-Duhem</p></li>
+<li><p>legge di Hess ed entalpia di reazione</p></li>
+<li><p>energia libera di Gibbs e spontaneità di una reazione</p></li>
+</ul>
+<p><strong>Cinetica chimica</strong></p>
+<ul class="simple">
+<li><p>velocità reazione</p></li>
+<li><p>reazioni spontanee e non; reazioni reversibili</p></li>
+<li><p>catalizzatori e altri fattori che influenzano la velocità di reazione</p></li>
+</ul>
+<p><strong>Equilibrio chimico.</strong></p>
+<ul class="simple">
+<li><p>Equilibrio dinamico, legge di azione di massa;</p></li>
+<li><p>Fattori che influenzano l’equilibrio chimico, il principio di Le Chatelier</p></li>
+<li><p>concentrazioni agli equilibri, solubilità (sale in acqua), formazione precipitato, effetto dello ione comune sulla solubilità del sale</p></li>
+</ul>
+<p><strong>Acidi, basi e pH</strong></p>
+<ul class="simple">
+<li><p>def; scala pH; acidi e basi deboli e forti; soluzione tampone; pH soluzione; titolazione acido-base; indicatore nelle titolazioni;</p></li>
+<li><p>idrolisi</p></li>
+</ul>
+<p><strong>Elettrochimica</strong></p>
+<ul class="simple">
+<li><p>Numero di ossidazione; ossidante, riducente; ossidazione, riduzione; redox (forma molecolare e ionica); potere ox e red</p></li>
+<li><p>energia e spontaneità; coppie redox; elettrodi; celle galvaniche; pila di Daniell; trasformazionee energia chimica/elettrica/”termica”; potenziali di cella</p></li>
+<li><p>equazione di Nerst; celle elettrolitiche; leggi di Faraday</p></li>
+</ul>
+<p><strong>Chimica organica.</strong></p>
+<ul class="simple">
+<li><p>Alcani, alcheni e alchini</p></li>
+<li><p>Composti aromatici</p></li>
+<li><p>Gruppi funzionali</p></li>
+</ul>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./ch"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../intro.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Chimica per le scuole superiori</p>
+      </div>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduzione-alla-scienza">Introduzione alla scienza</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduzione-all-teoria-atomica">Introduzione all teoria atomica</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#stati-della-materia">Stati della materia</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ordinamento-degli-elementi-chimici">“Ordinamento” degli elementi chimici</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modelli-atomici">Modelli atomici</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#legami-chimici">Legami chimici</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By basics
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=5b4479735964841361fd"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
