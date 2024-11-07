@@ -62,6 +62,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'ch/units';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -366,6 +368,10 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduzione-alla-scienza">Introduzione alla scienza</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduzione-all-teoria-atomica">Introduzione all teoria atomica</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#stati-della-materia">Stati della materia</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ordinamento-degli-elementi-chimici">“Ordinamento” degli elementi chimici</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modelli-atomici">Modelli atomici</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#legami-chimici">Legami chimici</a></li>
 </ul>
             </nav>
         </div>
@@ -403,29 +409,83 @@ document.write(`
 </li>
 </ul>
 <p><span style="color:red"><strong>todo</strong> fare riferimento all’introduzione storica nel bbook-physics-hs:thermodynamics, e al video di Bressanini “vedere l’atomo”</span></p>
-<p><strong>Stati della materia.</strong></p>
+</div>
+<div class="section" id="stati-della-materia">
+<h2>Stati della materia<a class="headerlink" href="#stati-della-materia" title="Permalink to this heading">#</a></h2>
 <ul class="simple">
 <li><p>Gas: leggi di Boyle, Charles, Gay-Lussac, Avogadro, gas perfetti; teoria cinetica; gas reali</p></li>
 <li><p>Liquidi</p></li>
 <li><p>Solidi</p></li>
 </ul>
-<p><strong>Modelli atomici.</strong></p>
+</div>
+<div class="section" id="ordinamento-degli-elementi-chimici">
+<h2>“Ordinamento” degli elementi chimici<a class="headerlink" href="#ordinamento-degli-elementi-chimici" title="Permalink to this heading">#</a></h2>
 <ul class="simple">
-<li><p>Esperimenti e modelli, dall’atomo di Thompson all’atomo di Bohr ai primordi della meccanica quantistica; meccanica quantistica come teoria meccanica per la descrizione dell’atomo (1924: De Broglie; 1925: Heisenberg, Born, Jordan; 1926: Schrodinger;…)</p></li>
-<li><p>Tavola periodica degli elementi di Mendeleev, e caratteristiche atomi:</p>
+<li><p>1869-71,
+<strong>Tavola periodica degli elementi di Mendeleev</strong> <strong>todo</strong> <em>riferimento a F ckin genius?</em>, e caratteristiche atomi:</p>
 <ul>
-<li><p>Proprietà: energia di ionizzazione, Dimensioni atomiche, Elettronegatività</p></li>
+<li><p>classificazione iniziata nella prima metà del XIX secolo</p></li>
+<li><p>Proprietà:</p>
+<ul>
+<li><p>peso atomico std</p></li>
+<li><p>numero atomico</p></li>
+<li><p>prima energia di ionizzazione</p></li>
+<li><p>elettronegatività: tendenza di un atomo di attrarre verso sè <span class="math notranslate nohighlight">\(e^-\)</span> condivisi</p></li>
+<li><p>stati di ossidazione <strong>comuni</strong></p></li>
+<li><p>config elettronica</p></li>
+</ul>
+</li>
+<li><p>Raggruppamento:</p>
+<ul>
+<li><p>gruppi, colonne: elementi con stessa config elettronica esterna. Poiché le proprietà chimiche dipendono principalmente dalla config. elettronica, gli elementi nello stesso gruppo hanno caratteristiche chimiche simili</p></li>
+<li><p>periodi, righe: elementi con lo stesso livello energetico; alcuni insiemi di elementi appartenenti allo stesso periodo mostrano proprietà simili, come il blocco <span class="math notranslate nohighlight">\(f\)</span> dei lantanidi e gli attinidi; nello stesso periodo ci sono variazioni monotone di:</p>
+<ul>
+<li><p>raggio atomico: diminuisce, all’aumentare del numero di <span class="math notranslate nohighlight">\(e^-\)</span> e di <span class="math notranslate nohighlight">\(p\)</span>, poiché aumenta l’attrazione elettrica</p></li>
+<li><p>energia di ionizzazione: aumenta, al diminuire del raggio e all’aumentare dell’attrazione elettrica, poiché diventa più difficile strappare un <span class="math notranslate nohighlight">\(e^-\)</span> all’atomo: serve una maggiore energia per allontanare un <span class="math notranslate nohighlight">\(e^-\)</span></p></li>
+<li><p>elettronegatività: aumenta, all’aumentare dell’attrazione esercitata dagli <span class="math notranslate nohighlight">\(e^-\)</span> sul nucleo</p></li>
+<li><p>affinità elettronica: … <strong>todo</strong> come?</p></li>
+</ul>
+</li>
+</ul>
+</li>
 <li><p>Configurazione elettronica esterna</p></li>
 </ul>
 </li>
 </ul>
-<p><strong>Legami chimici</strong></p>
+</div>
+<div class="section" id="modelli-atomici">
+<h2>Modelli atomici<a class="headerlink" href="#modelli-atomici" title="Permalink to this heading">#</a></h2>
+<p><strong>Esperimenti.</strong></p>
 <ul class="simple">
-<li><p>Notazione di Lewis</p></li>
-<li><p>Regola ottetto</p></li>
+<li><p>Esperimenti e modelli, dall’atomo di Thompson all’atomo di Bohr ai primordi della meccanica quantistica; meccanica quantistica come teoria meccanica per la descrizione dell’atomo (1924: De Broglie; 1925: Heisenberg, Born, Jordan; 1926: Schrodinger;…)</p></li>
+<li><p>Rivisitazione tavola periodica, alla luce dei modelli atomici</p></li>
+</ul>
+</div>
+<div class="section" id="legami-chimici">
+<h2>Legami chimici<a class="headerlink" href="#legami-chimici" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Regola ottetto</strong> e notazione di <strong>Lewis</strong></p>
+<ul>
+<li><p>regola per spiegare in maniera approssimata la formazione di legami chimici;</p></li>
+<li><p>tendenza a completare il livello elettronico esterno (“guscio di valenza”), per raggiungere una configurazione particolarmente stabile dal punto di vista energetico, e impedire la formazione di ulteriori legami;</p></li>
+<li><p>gli elementi dei primi gruppi della tavola periodica tendono a perdere <span class="math notranslate nohighlight">\(e^-\)</span></p></li>
+<li><p>gli elementi dei gruppi VI, VII tende ad aquisire <span class="math notranslate nohighlight">\(e^-\)</span>, liberando energia, chiamata <strong>affinità elettronica</strong></p></li>
+<li><p>i gas nobili, l’He e gli elementi del gruppo VIII, hanno il guscio di valenza completo e tendono a non reagire</p></li>
+<li><p>idrogeno, litio e berillio, elementi “vicini” a He, raggiungono la configurazione completa con 2 <span class="math notranslate nohighlight">\(e^-\)</span>, detta <strong>duetto</strong></p></li>
+<li><p>metalli di transizione e a partire dal terzo periodo, gli elementi hanno guscio di valenza che può ospitare un numero maggiore di <span class="math notranslate nohighlight">\(e^-\)</span>, <em>“ottetto espanso”</em></p></li>
+<li><p><strong>spiegazione in QM</strong>: l’energia degli orbitali è determinata “quasi esclusivamente”, a parte la <em>struttura fine</em>, dal numero quantico principale. Il numero di stati con lo stesso numero quantico principale <span class="math notranslate nohighlight">\(n\)</span> è <span class="math notranslate nohighlight">\(2 \, n^2\)</span> (2 dal principio di Pauli): quindi <span class="math notranslate nohighlight">\(2, 8, 18,...\)</span>. La differenza di energia di livelli con <span class="math notranslate nohighlight">\(n\)</span> diverso è elevata,…<strong>todo</strong> <em>salto di energia per attrarre ulteriori <span class="math notranslate nohighlight">\(e^-\)</span> quando il guscio di valenza è pieno</em></p></li>
+<li><p><strong>Eccezioni</strong>: <span class="math notranslate nohighlight">\(s\)</span>, <span class="math notranslate nohighlight">\(d\)</span>,…</p></li>
+</ul>
+</li>
 <li><p>Tipi di legami intramolecolari: legame ionico, covalente puro e polare</p></li>
 <li><p>Interazioni tra molecole: legame idrogeno, …<strong>todo</strong> <em>altri legami?</em></p></li>
-<li><p>Geometria molecolare, VSEPR</p></li>
+<li><p>Teorie per la descrizione del legame e geometria molecolare,</p>
+<ul>
+<li><p>VSEPR</p></li>
+<li><p>teoria del legame di valenza</p></li>
+<li><p>…</p></li>
+</ul>
+</li>
 </ul>
 <p><strong>Miscele.</strong></p>
 <ul class="simple">
@@ -435,11 +495,13 @@ document.write(`
 <ul class="simple">
 <li><p>Formalismo</p></li>
 <li><p>Legge di Lavoisier, proporzioni def e multiple</p></li>
-<li><p>Calcolo reazioni chimiche: reagente limitante, soluzioni, concentrazioni,…</p></li>
+<li><p>Calcolo reazioni chimiche: reagente limitante e in eccesso,</p></li>
+<li><p>Soluzioni, concentrazioni: legge di Raoult, legge di Henry,…</p></li>
 </ul>
-<p><strong>Termodinamica.</strong></p>
+<p><strong>Reazioni e termodinamica.</strong></p>
 <ul class="simple">
 <li><p>introduzione alla termodinamica <span style="color:red">Collegamento al bbook di fisica</span></p></li>
+<li><p>Gibbs-Duhem</p></li>
 <li><p>legge di Hess ed entalpia di reazione</p></li>
 <li><p>energia libera di Gibbs e spontaneità di una reazione</p></li>
 </ul>
@@ -531,6 +593,10 @@ document.write(`
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduzione-alla-scienza">Introduzione alla scienza</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduzione-all-teoria-atomica">Introduzione all teoria atomica</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#stati-della-materia">Stati della materia</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ordinamento-degli-elementi-chimici">“Ordinamento” degli elementi chimici</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modelli-atomici">Modelli atomici</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#legami-chimici">Legami chimici</a></li>
 </ul>
   </nav></div>
 

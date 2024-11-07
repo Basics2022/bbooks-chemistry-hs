@@ -1,7 +1,7 @@
 (book:chemistry:hs)=
 # Chimica per le scuole superiori
 
-Questo libro fa parte del materiale pensato per [le scuole superiori](https://basics2022.github.io/bbooks-hs)
+Questo libro fa parte del materiale pensato per [le scuole superiori](https://basics2022.github.io/bbooks-hs). E' disponibile la [versione in .pdf](https://www.github.com/Basics2022/bbooks-chemistry-hs/blob/master/_build/latex/book.pdf) scaricabile.
 
 <span style="color:red">Valutare se fare uno o più bbook di "scienze applicate", per astronomia, scienza della terra, biologia</span>
 
