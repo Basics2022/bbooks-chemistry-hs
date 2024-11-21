@@ -87,8 +87,11 @@ $$
 
 **to be continued** wiki,
 - chemical equilibrium
-- Gibbs\textquotesingle free energy
+- Gibbs' free energy
 
+Forma incrementale del primo principio della termodinamica
+
+$$d E = T dS + F_i dX_i$$
 
 
 - chemical kinetics
